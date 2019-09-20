@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_fRsi4Ns5Eem8orJym4iWkQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_nlHxoNs5Eem8orJym4iWkQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_qZsyENs5Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.partdescriptor.simpletableviewq10919pavlik" label="Simple Table View Q1 0919 Pavlik" iconURI="platform:/plugin/project-q1-0919-table-Pavlik/icons/sample.png" contributionURI="bundleclass://project-q1-0919-table-Pavlik/view.Viewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_2Qb9QNs-Eem8orJym4iWkQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="__msiANs-Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_F0p5ENs_Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.menu.mainmenupavlik" label="Main Menu Pavlik">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_IQY7sNs_Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.handledmenuitem.export" label="Export" command="_RWSwQNs_Eem8orJym4iWkQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_NhAgwNs_Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.handledmenuitem.packageclassmethodcounter" label="Package/Class/Method Counter" command="_UfxpsNs_Eem8orJym4iWkQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_rG2SUNtBEem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.handledmenuitem.import" label="Import" command="_sZyg4NtBEem8orJym4iWkQ"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6zre8Ns-Eem8orJym4iWkQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_RWSwQNs_Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.command." commandName="Export"/>
+    <elements xsi:type="commands:Command" xmi:id="_UfxpsNs_Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.command.count" commandName="Count"/>
+    <elements xsi:type="commands:Command" xmi:id="_sZyg4NtBEem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.command.import" commandName="Import"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_8ngNANs-Eem8orJym4iWkQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_WPvygNs_Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.handler.0" contributionURI="bundleclass://project-q1-0919-table-Pavlik/handlers.Export" command="_RWSwQNs_Eem8orJym4iWkQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_geHD8Ns_Eem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.handler.1" contributionURI="bundleclass://project-q1-0919-table-Pavlik/handlers.Count" command="_UfxpsNs_Eem8orJym4iWkQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_tnylENtBEem8orJym4iWkQ" elementId="project-q1-0919-table-pavlik.handler.2" contributionURI="bundleclass://project-q1-0919-table-Pavlik/handlers.Import" command="_sZyg4NtBEem8orJym4iWkQ"/>
+  </fragments>
+</fragment:ModelFragments>
